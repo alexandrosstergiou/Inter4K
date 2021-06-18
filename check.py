@@ -5,7 +5,7 @@ avg_fps = 0
 avg_duration = 0
 errors = []
 
-for i,file in enumerate(glob.glob('60fps/*/*.mp4')):
+for i,file in enumerate(glob.glob('Inter4K/60fps/*/*.mp4')):
   fps = os.popen('ffprobe -v error -select_streams v -of default=noprint_wrappers=1:nokey=1 -show_entries stream=r_frame_rate %s'%(file)).read()
   res = os.popen('ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0 %s'%(file)).read()
   fps = float(fps.rstrip().split('/')[0]) / float(fps.rstrip().split('/')[1])
