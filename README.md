@@ -7,9 +7,9 @@
 # Inter4K Tools
 Official repository for hosting tools for creating Inter4K video interpolation dataset.
 
-Project website: TODO
+Project website: [Inter4K/index.html](https://alexandrosstergiou.github.io/datasets/Inter4K/index.html)
 
-Paper: TODO
+Paper: _AdaPool: Exponential Adaptive Pooling for Information-Retaining Downsampling_
 
 ## Requirements
 
@@ -43,10 +43,15 @@ python check.py
 python resolution_changes.py
 ```
 
-> ! Note: By default, the program will use 16 workers to create the dataset. If you are interested on speeding-up things and given that you have a capable CPU you can change the number of workers by editing [`resolution_chanes.py line #42`](https://github.com/alexandrosstergiou/Inter4K/blob/c3469f9439e85403177c12250ab75716c5b4772c/resolution_changes.py#L42). This can also be the case that a less powerful CPU is used.
+> ! Note: By default, the program will use 16 workers to create the dataset. If you are interested on speeding-up things (and given that you have a capable CPU) you can change the number of workers by editing [`resolution_chanes.py line #42`](https://github.com/alexandrosstergiou/Inter4K/blob/c3469f9439e85403177c12250ab75716c5b4772c/resolution_changes.py#L42). This can also be the case that a less powerful CPU is used.
 
 ## Reference
 
 ```
-TODO
+@article{stergiou2021adapool,
+  title={AdaPool: Exponential Adaptive Pooling for Information-Retaining Downsampling},
+  author={Stergiou, Alexandros and Poppe, Ronald},
+  booktitle={arXiv},
+  year={2021}
+}
 ```
