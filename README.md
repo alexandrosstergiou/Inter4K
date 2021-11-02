@@ -17,9 +17,9 @@ Paper: _AdaPool: Exponential Adaptive Pooling for Information-Retaining Downsamp
 
 ## Dataset creation instructions
 
-1. You will first need to download the 4K 60fps video clips (~15GB in total). Use the link [https://tinyurl.com/interUHD](https://tinyurl.com/interUHD) either through the browser or with `wget` on terminal:
+1. You will first need to download the 4K 60fps video clips (~15GB in total). Use the link [https://tinyurl.com/inter4KUHD](https://tinyurl.com/inter4KUHD) either through the browser or with `wget` on terminal:
 ```
-wget https://tinyurl.com/interUHD
+wget https://tinyurl.com/inter4KUHD
 ```
 
 2. Clone the repository:
