@@ -4,6 +4,9 @@
 
 ![GitHub issues](https://img.shields.io/badge/licence-CC--NC--SA-lightgrey.svg)
 
+> UPDATE 12/2024: A large-scale high resolution dataset for video interpolation is now available [check out LAVIB](https://github.com/alexandrosstergiou/LAVIB)
+
+
 # Inter4K Tools
 Official repository for hosting tools for creating Inter4K video interpolation dataset.
 
